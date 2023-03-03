@@ -96,14 +96,17 @@ img:hover {
     }
 }
 
-
 @media (max-width: 550px) {
+    body {
+        height: 1200px;
+    }
     .card-container {
         border-radius: 3%;
+        margin-top: 100px;
     }
 
     .card {
-        padding: 20px;
+        padding: 20px ;
     }
     
     h1 {
