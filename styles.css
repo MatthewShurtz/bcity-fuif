@@ -19,7 +19,7 @@ body {
 
 .card {
     text-align: center;
-    padding: 50px 50px 50px 50px;
+    padding: 50px;
 }
 
 h1 {
@@ -93,5 +93,40 @@ img:hover {
 
     100% {
         transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+@media (max-width: 550px) {
+    .card-container {
+        border-radius: 3%;
+    }
+
+    .card {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 28px;
+    }
+    
+    span {
+        font-weight: 900;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        transition: 500ms;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
     }
 }
